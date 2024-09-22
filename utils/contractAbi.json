@@ -1,0 +1,54 @@
+[
+    {
+        "inputs": [],
+        "name": "getUserTodo",
+        "outputs": [
+            {
+                "internalType": "string[]",
+                "name": "",
+                "type": "string[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "todo",
+                "type": "string"
+            }
+        ],
+        "name": "addTodo",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint8",
+                "name": "todo_index",
+                "type": "uint8"
+            }
+        ],
+        "name": "markCompleted",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint8",
+                "name": "todo_index",
+                "type": "uint8"
+            }
+        ],
+        "name": "deleteTodo",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]

@@ -1,0 +1,10 @@
+
+interface IMetaDate {
+    function getUserTodo() external view returns (string[] memory);
+
+    function addTodo(string calldata todo) external;
+
+    function markCompleted(uint8 todo_index) external;
+
+    function deleteTodo(uint8 todo_index) external;
+}
